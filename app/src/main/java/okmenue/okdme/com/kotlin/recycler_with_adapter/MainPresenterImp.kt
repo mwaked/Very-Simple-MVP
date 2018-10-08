@@ -27,7 +27,6 @@ class MainPresenterImp(val view: MainView) : MainPresenter {
         val sortedList = arrayList.sortedBy { it.number }
 
         view.getDataSuccess(sortedList)
-
     }
 
 
